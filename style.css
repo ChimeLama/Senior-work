@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.projects {
+  background-color: #a0b3fa;
+  border: 3px solid #8699df;
+  margin:10px;
+  margin-bottom: 15px;
+  /* height: 195px; */
+  display: flex;
+}
+.projects img {
+  border: 3px solid #8699df;
+  width: 170px;
+  height: 170px;
+  margin: 10px;
+}
+.projects div {
+  background-color: #aabdff;
+  opacity: 1;
+  background-position: 0 0, 26px 26px;
+  background-size: 52px 52px;
+  padding: 11px;
+  border-left: 3px solid #8699df;
+}
+.projects h3 {
+  padding: 3px 10px 3px 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+.projects p {
+  max-height: 130px;
+  overflow: auto;
+}
